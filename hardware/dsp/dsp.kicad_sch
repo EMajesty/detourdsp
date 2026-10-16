@@ -1,0 +1,2878 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "830eff83-f012-43cb-96fd-a494f8ceadf0")
+	(paper "A3")
+	(lib_symbols
+		(symbol "Connector_Audio:AudioJack3_Dual_Switch"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "AudioJack3_Dual_Switch"
+				(at 0 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.27 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at -1.27 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Audio Jack, Dual, 3 Poles (Stereo / TRS), Switched Poles (Normalling)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "audio jack dual receptacle stereo headphones phones TRS connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Jack*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "AudioJack3_Dual_Switch_0_1"
+				(rectangle
+					(start -6.35 -5.08)
+					(end -7.62 -7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.175 -5.08) (xy -2.54 -5.715) (xy -1.905 -5.08) (xy -1.905 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 4.826) (xy -2.286 4.318)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -5.08) (xy -0.635 -5.715) (xy 0 -5.08) (xy 1.27 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.762 -0.254) (xy -0.508 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 -5.334) (xy 0.762 -5.842)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 1.27 6.35)
+					(end -6.35 -8.89)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 5.08) (xy -3.81 5.08) (xy -3.81 -5.08) (xy -4.445 -5.715) (xy -5.08 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 5.08) (xy 1.27 5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy -2.54 2.54) (xy -2.54 4.826) (xy -2.794 4.318)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy -0.762 -2.54) (xy -0.762 -0.254) (xy -1.016 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -5.08) (xy 1.27 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -7.62) (xy 0.508 -7.62) (xy 0.508 -5.334) (xy 0.254 -5.842)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "AudioJack3_Dual_Switch_1_1"
+				(pin passive line
+					(at 5.08 5.08 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "S1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "SN1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "R1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "RN1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -5.08 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "T1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -7.62 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "TN1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "AudioJack3_Dual_Switch_2_1"
+				(pin passive line
+					(at 5.08 5.08 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "S2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "SN2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "R2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "RN2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -5.08 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "T2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -7.62 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "TN2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Jumper:SolderJumper_3_Open"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "JP"
+				(at -2.54 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SolderJumper_3_Open"
+				(at 0 2.794 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Solder Jumper, 3-pole, open"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Solder Jumper SPDT"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SolderJumper*Open*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SolderJumper_3_Open_0_1"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -2.032 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 1.016) (xy -1.016 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -1.016 -1.016)
+					(mid -2.0276 0)
+					(end -1.016 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -1.016 -1.016)
+					(mid -2.0276 0)
+					(end -1.016 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -0.508 1.016)
+					(end 0.508 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.016 1.016)
+					(mid 2.0276 0)
+					(end 1.016 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.016 1.016)
+					(mid 2.0276 0)
+					(end 1.016 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 1.016) (xy 1.016 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 2.032 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SolderJumper_3_Open_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(wire
+		(pts
+			(xy 359.41 160.02) (xy 368.3 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03940faf-23ee-49d1-afb2-1b0d98e68f93")
+	)
+	(wire
+		(pts
+			(xy 359.41 109.22) (xy 368.3 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04f67043-867b-4906-b6e4-1a8c79b3fba1")
+	)
+	(wire
+		(pts
+			(xy 359.41 60.96) (xy 359.41 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3491f3fd-d5a5-4a6d-b4a2-216d9d3a709a")
+	)
+	(wire
+		(pts
+			(xy 350.52 180.34) (xy 368.3 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40ab8598-21e9-44a5-b3c4-ea9bedd364a9")
+	)
+	(wire
+		(pts
+			(xy 359.41 58.42) (xy 368.3 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5636d57d-8f44-4b93-a8f2-dc868cec521c")
+	)
+	(wire
+		(pts
+			(xy 359.41 35.56) (xy 359.41 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6266414e-ffb0-41dc-b016-cc71d22cb427")
+	)
+	(wire
+		(pts
+			(xy 359.41 111.76) (xy 359.41 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62a11124-74e6-4453-b105-7be747ee8a1d")
+	)
+	(wire
+		(pts
+			(xy 350.52 78.74) (xy 368.3 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68f0f348-d686-4bb5-8633-ce1a4cdb22f8")
+	)
+	(wire
+		(pts
+			(xy 359.41 210.82) (xy 368.3 210.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a8d47a9-38bd-4165-a70a-9d1bcba0560b")
+	)
+	(wire
+		(pts
+			(xy 350.52 129.54) (xy 368.3 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "796ee9df-5b62-4d4d-acb9-7fbb0334e350")
+	)
+	(wire
+		(pts
+			(xy 359.41 33.02) (xy 368.3 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a43ff79-bdf2-45f2-9b21-5570fc5acf9f")
+	)
+	(wire
+		(pts
+			(xy 350.52 104.14) (xy 368.3 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8fcc465b-62ec-4e9a-b240-a3ab1660f3bb")
+	)
+	(wire
+		(pts
+			(xy 359.41 187.96) (xy 359.41 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9937c311-078c-405c-8380-1136147ffdb2")
+	)
+	(wire
+		(pts
+			(xy 359.41 213.36) (xy 359.41 210.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9aa429f1-89cf-4d66-9211-2aaf38051c9a")
+	)
+	(wire
+		(pts
+			(xy 350.52 205.74) (xy 368.3 205.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a71007e3-7cf8-4db4-8634-34776e0a15c3")
+	)
+	(wire
+		(pts
+			(xy 359.41 185.42) (xy 368.3 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a72bd18d-987d-48ae-be34-2f8bcdc1fd44")
+	)
+	(wire
+		(pts
+			(xy 359.41 83.82) (xy 368.3 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a836e0a6-72d8-4e8a-9258-2646aa2b6048")
+	)
+	(wire
+		(pts
+			(xy 359.41 134.62) (xy 368.3 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a91dde3a-9f0e-4f0b-821f-5e80abc7f5ce")
+	)
+	(wire
+		(pts
+			(xy 359.41 162.56) (xy 359.41 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac4812b0-f78c-4774-99e1-716e6fc72497")
+	)
+	(wire
+		(pts
+			(xy 350.52 27.94) (xy 368.3 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4c1df14-51cd-4da2-92d0-cbd0af6d4f21")
+	)
+	(wire
+		(pts
+			(xy 359.41 137.16) (xy 359.41 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc58a5e9-bce5-4504-82ae-872910980615")
+	)
+	(wire
+		(pts
+			(xy 359.41 86.36) (xy 359.41 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "defa9569-3219-4a63-9c28-e33a99508f07")
+	)
+	(wire
+		(pts
+			(xy 350.52 53.34) (xy 368.3 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0877dad-c384-4615-89be-f906e2e441e0")
+	)
+	(wire
+		(pts
+			(xy 350.52 154.94) (xy 368.3 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e18e2d39-dbf9-4440-a80f-2d95d30e2ce7")
+	)
+	(symbol
+		(lib_id "Connector_Audio:AudioJack3_Dual_Switch")
+		(at 373.38 83.82 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "011e8991-6db6-4103-bfd9-bbb77f88660d")
+		(property "Reference" "J3"
+			(at 382.27 81.2799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Insert3"
+			(at 382.27 83.8199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 374.65 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 374.65 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio Jack, Dual, 3 Poles (Stereo / TRS), Switched Poles (Normalling)"
+			(at 373.38 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "T2"
+			(uuid "183f95e9-5b3a-4220-b08e-ae23868048a1")
+		)
+		(pin "S2"
+			(uuid "10eba5de-f3b0-4c6b-b17f-1f759ba99300")
+		)
+		(pin "R2"
+			(uuid "c3d275ce-75c9-45a4-82f6-4bf048893564")
+		)
+		(pin "T1"
+			(uuid "6f6245d2-945d-463b-a952-0b36e6642438")
+		)
+		(pin "RN1"
+			(uuid "f429fabd-5685-4013-8985-56ccd52def81")
+		)
+		(pin "TN2"
+			(uuid "4bf4f644-73dd-4f4c-9526-e291d165c1d3")
+		)
+		(pin "RN2"
+			(uuid "69bcbefb-f3f4-4a8e-91cd-be7b56060cb6")
+		)
+		(pin "TN1"
+			(uuid "e36faeba-8523-430b-9877-bdf64f56196b")
+		)
+		(pin "S1"
+			(uuid "719cbadd-5739-4060-b132-2980ce8b701b")
+		)
+		(pin "R1"
+			(uuid "82a152f8-63ce-4c53-9acd-5c3ac77df8fa")
+		)
+		(pin "SN2"
+			(uuid "8fc428fc-86db-4748-82bb-08a85b6a60fb")
+		)
+		(pin "SN1"
+			(uuid "5a1ce31b-9cee-4b62-9fa6-0a6fc9d3dc19")
+		)
+		(instances
+			(project "dsp"
+				(path "/830eff83-f012-43cb-96fd-a494f8ceadf0"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Audio:AudioJack3_Dual_Switch")
+		(at 373.38 185.42 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0aa453a1-196b-45fe-8b4c-a09c7376b227")
+		(property "Reference" "J7"
+			(at 382.27 182.8799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Insert7"
+			(at 382.27 185.4199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 374.65 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 374.65 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio Jack, Dual, 3 Poles (Stereo / TRS), Switched Poles (Normalling)"
+			(at 373.38 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "T2"
+			(uuid "183f95e9-5b3a-4220-b08e-ae23868048a1")
+		)
+		(pin "S2"
+			(uuid "10eba5de-f3b0-4c6b-b17f-1f759ba99300")
+		)
+		(pin "R2"
+			(uuid "c3d275ce-75c9-45a4-82f6-4bf048893564")
+		)
+		(pin "T1"
+			(uuid "9d2eca5e-506e-4371-a7be-3b7e99abe1ba")
+		)
+		(pin "RN1"
+			(uuid "a1ea00c4-fb7b-4a0c-aabd-6152232dc7e6")
+		)
+		(pin "TN2"
+			(uuid "4bf4f644-73dd-4f4c-9526-e291d165c1d3")
+		)
+		(pin "RN2"
+			(uuid "69bcbefb-f3f4-4a8e-91cd-be7b56060cb6")
+		)
+		(pin "TN1"
+			(uuid "a7a63082-0dab-4bc6-bd9c-7b812540ea20")
+		)
+		(pin "S1"
+			(uuid "261a0aea-638e-4548-898f-38191c23d8c2")
+		)
+		(pin "R1"
+			(uuid "af90524f-3dca-402a-a549-a91c3481f4d5")
+		)
+		(pin "SN2"
+			(uuid "8fc428fc-86db-4748-82bb-08a85b6a60fb")
+		)
+		(pin "SN1"
+			(uuid "8e613d9e-e5e1-41ab-a810-efa6676a5f81")
+		)
+		(instances
+			(project "dsp"
+				(path "/830eff83-f012-43cb-96fd-a494f8ceadf0"
+					(reference "J7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_3_Open")
+		(at 346.71 53.34 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "0b06bc30-9bf0-4e48-969b-b9d670d91029")
+		(property "Reference" "JP3"
+			(at 342.392 52.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TIP"
+			(at 342.392 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 346.71 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 346.71 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 3-pole, open"
+			(at 346.71 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "19fe7dce-4f44-4e49-8f97-c5c683321fe1")
+		)
+		(pin "2"
+			(uuid "64148647-bb89-4b45-ada0-c725a84b74f8")
+		)
+		(pin "1"
+			(uuid "af92dc01-75b2-4bd2-b2f2-59aabf4595cc")
+		)
+		(instances
+			(project "dsp"
+				(path "/830eff83-f012-43cb-96fd-a494f8ceadf0"
+					(reference "JP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Audio:AudioJack3_Dual_Switch")
+		(at 373.38 33.02 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "126c6235-3e14-4574-a204-b76c59b905c1")
+		(property "Reference" "J1"
+			(at 382.27 30.4799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Insert1"
+			(at 382.27 33.0199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 374.65 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 374.65 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio Jack, Dual, 3 Poles (Stereo / TRS), Switched Poles (Normalling)"
+			(at 373.38 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "T2"
+			(uuid "183f95e9-5b3a-4220-b08e-ae23868048a1")
+		)
+		(pin "S2"
+			(uuid "10eba5de-f3b0-4c6b-b17f-1f759ba99300")
+		)
+		(pin "R2"
+			(uuid "c3d275ce-75c9-45a4-82f6-4bf048893564")
+		)
+		(pin "T1"
+			(uuid "72b5b692-52ef-4a34-9dec-30623d4bf032")
+		)
+		(pin "RN1"
+			(uuid "71691148-8429-4aec-bf7d-00eda2cf8e10")
+		)
+		(pin "TN2"
+			(uuid "4bf4f644-73dd-4f4c-9526-e291d165c1d3")
+		)
+		(pin "RN2"
+			(uuid "69bcbefb-f3f4-4a8e-91cd-be7b56060cb6")
+		)
+		(pin "TN1"
+			(uuid "12eaffce-f319-4b82-8e0a-dd55f01905d6")
+		)
+		(pin "S1"
+			(uuid "3d0a3af7-bed7-41c2-9008-e6be1bbf2539")
+		)
+		(pin "R1"
+			(uuid "cd14137c-45a5-4817-b8f0-5db7009bbab7")
+		)
+		(pin "SN2"
+			(uuid "8fc428fc-86db-4748-82bb-08a85b6a60fb")
+		)
+		(pin "SN1"
+			(uuid "404e7256-4587-49e0-b699-ebbaa41254cd")
+		)
+		(instances
+			(project ""
+				(path "/830eff83-f012-43cb-96fd-a494f8ceadf0"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Audio:AudioJack3_Dual_Switch")
+		(at 373.38 109.22 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "258c7264-66a1-4c9f-bbe7-c54de64df590")
+		(property "Reference" "J4"
+			(at 382.27 106.6799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Insert4"
+			(at 382.27 109.2199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 374.65 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 374.65 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio Jack, Dual, 3 Poles (Stereo / TRS), Switched Poles (Normalling)"
+			(at 373.38 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "T2"
+			(uuid "183f95e9-5b3a-4220-b08e-ae23868048a1")
+		)
+		(pin "S2"
+			(uuid "10eba5de-f3b0-4c6b-b17f-1f759ba99300")
+		)
+		(pin "R2"
+			(uuid "c3d275ce-75c9-45a4-82f6-4bf048893564")
+		)
+		(pin "T1"
+			(uuid "5f36329d-39bc-4bfb-ad7f-da03e4adc2b3")
+		)
+		(pin "RN1"
+			(uuid "28cab38d-1554-4671-8f9a-08a865414642")
+		)
+		(pin "TN2"
+			(uuid "4bf4f644-73dd-4f4c-9526-e291d165c1d3")
+		)
+		(pin "RN2"
+			(uuid "69bcbefb-f3f4-4a8e-91cd-be7b56060cb6")
+		)
+		(pin "TN1"
+			(uuid "f761ef3e-5d87-4479-b9bb-474dce35abea")
+		)
+		(pin "S1"
+			(uuid "a4ff9e19-aaa2-4573-bc43-cb46225178f0")
+		)
+		(pin "R1"
+			(uuid "7817063a-352e-4a05-b98f-4ad84101264c")
+		)
+		(pin "SN2"
+			(uuid "8fc428fc-86db-4748-82bb-08a85b6a60fb")
+		)
+		(pin "SN1"
+			(uuid "96fc9972-94fd-41f7-90dd-0323327a3378")
+		)
+		(instances
+			(project "dsp"
+				(path "/830eff83-f012-43cb-96fd-a494f8ceadf0"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_3_Open")
+		(at 355.6 137.16 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "2a8f2070-5d84-41c6-8bd9-70f219c030fc")
+		(property "Reference" "JP10"
+			(at 351.028 135.89 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RING"
+			(at 351.028 138.43 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 355.6 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 355.6 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 3-pole, open"
+			(at 355.6 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "34f1bf9b-01ac-477c-b922-f248731757f2")
+		)
+		(pin "2"
+			(uuid "d0d9fb16-3196-4bbf-98a1-0b5a39e03b7e")
+		)
+		(pin "1"
+			(uuid "401b508c-de6f-41bf-9023-d14216f6a8f1")
+		)
+		(instances
+			(project "dsp"
+				(path "/830eff83-f012-43cb-96fd-a494f8ceadf0"
+					(reference "JP10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_3_Open")
+		(at 355.6 111.76 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "37fb9c27-525f-48fa-b6de-094199a1be93")
+		(property "Reference" "JP8"
+			(at 351.028 110.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RING"
+			(at 351.028 113.03 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 355.6 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 355.6 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 3-pole, open"
+			(at 355.6 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "81f0ff81-4041-46cc-8a27-86642790db35")
+		)
+		(pin "2"
+			(uuid "bfef16fc-1fe5-4f02-b0e5-17dd7cb2e67f")
+		)
+		(pin "1"
+			(uuid "3b1e3607-489d-47a9-8d38-a912495b3c1c")
+		)
+		(instances
+			(project "dsp"
+				(path "/830eff83-f012-43cb-96fd-a494f8ceadf0"
+					(reference "JP8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Audio:AudioJack3_Dual_Switch")
+		(at 373.38 134.62 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "413966da-6972-4828-9d90-c151964ba719")
+		(property "Reference" "J5"
+			(at 382.27 132.0799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Insert5"
+			(at 382.27 134.6199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 374.65 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 374.65 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio Jack, Dual, 3 Poles (Stereo / TRS), Switched Poles (Normalling)"
+			(at 373.38 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "T2"
+			(uuid "183f95e9-5b3a-4220-b08e-ae23868048a1")
+		)
+		(pin "S2"
+			(uuid "10eba5de-f3b0-4c6b-b17f-1f759ba99300")
+		)
+		(pin "R2"
+			(uuid "c3d275ce-75c9-45a4-82f6-4bf048893564")
+		)
+		(pin "T1"
+			(uuid "d34cd1ed-8fd2-403b-8257-6d827671cc1d")
+		)
+		(pin "RN1"
+			(uuid "7e28b211-1518-4891-992e-2320fc886f4d")
+		)
+		(pin "TN2"
+			(uuid "4bf4f644-73dd-4f4c-9526-e291d165c1d3")
+		)
+		(pin "RN2"
+			(uuid "69bcbefb-f3f4-4a8e-91cd-be7b56060cb6")
+		)
+		(pin "TN1"
+			(uuid "b7d24d1a-cdd2-48a5-a543-cf92ec19b456")
+		)
+		(pin "S1"
+			(uuid "f01daecd-7c84-43d8-8466-9988100db131")
+		)
+		(pin "R1"
+			(uuid "57aa2200-6b26-4454-aac2-976c59943b17")
+		)
+		(pin "SN2"
+			(uuid "8fc428fc-86db-4748-82bb-08a85b6a60fb")
+		)
+		(pin "SN1"
+			(uuid "b7403cba-ab24-48d8-ae32-fd8e1247a910")
+		)
+		(instances
+			(project "dsp"
+				(path "/830eff83-f012-43cb-96fd-a494f8ceadf0"
+					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_3_Open")
+		(at 346.71 78.74 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "47c82604-b20c-43a9-8209-7fd55909484c")
+		(property "Reference" "JP5"
+			(at 342.392 77.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TIP"
+			(at 342.392 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 346.71 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 346.71 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 3-pole, open"
+			(at 346.71 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "d1da9616-ada7-44c2-b1b8-9bfa62486bc9")
+		)
+		(pin "2"
+			(uuid "f01d424c-1007-4dd4-a683-be995a5da29a")
+		)
+		(pin "1"
+			(uuid "2d6f02b1-badc-44a0-a8fb-646b2d03e205")
+		)
+		(instances
+			(project "dsp"
+				(path "/830eff83-f012-43cb-96fd-a494f8ceadf0"
+					(reference "JP5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_3_Open")
+		(at 346.71 154.94 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "4e6e2722-ebb7-49cc-95ba-f2367c23aef7")
+		(property "Reference" "JP11"
+			(at 342.392 153.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TIP"
+			(at 342.392 156.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 346.71 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 346.71 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 3-pole, open"
+			(at 346.71 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "234847c8-e39f-4a8c-9c63-dff9fa69815f")
+		)
+		(pin "2"
+			(uuid "a24c4917-41a6-40d0-afa6-2a1b43c90768")
+		)
+		(pin "1"
+			(uuid "8649921a-1087-497e-8f14-04e0f584108b")
+		)
+		(instances
+			(project "dsp"
+				(path "/830eff83-f012-43cb-96fd-a494f8ceadf0"
+					(reference "JP11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Audio:AudioJack3_Dual_Switch")
+		(at 373.38 210.82 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5207241b-e6fe-4a6e-b98b-306a1ecc21e9")
+		(property "Reference" "J8"
+			(at 382.27 208.2799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Insert8"
+			(at 382.27 210.8199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 374.65 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 374.65 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio Jack, Dual, 3 Poles (Stereo / TRS), Switched Poles (Normalling)"
+			(at 373.38 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "T2"
+			(uuid "183f95e9-5b3a-4220-b08e-ae23868048a1")
+		)
+		(pin "S2"
+			(uuid "10eba5de-f3b0-4c6b-b17f-1f759ba99300")
+		)
+		(pin "R2"
+			(uuid "c3d275ce-75c9-45a4-82f6-4bf048893564")
+		)
+		(pin "T1"
+			(uuid "b2cb44f9-1e29-45d1-82c8-4b81eaf4455c")
+		)
+		(pin "RN1"
+			(uuid "96495a6b-d0a5-4c49-b64e-bced18173534")
+		)
+		(pin "TN2"
+			(uuid "4bf4f644-73dd-4f4c-9526-e291d165c1d3")
+		)
+		(pin "RN2"
+			(uuid "69bcbefb-f3f4-4a8e-91cd-be7b56060cb6")
+		)
+		(pin "TN1"
+			(uuid "5fb066c6-a017-43ce-8ec9-8ac5944b15a0")
+		)
+		(pin "S1"
+			(uuid "2eb5c853-b90f-4a4b-bcd9-f245c6e5aa96")
+		)
+		(pin "R1"
+			(uuid "74297fe0-f0eb-4cd5-8cc3-669df46ed4d3")
+		)
+		(pin "SN2"
+			(uuid "8fc428fc-86db-4748-82bb-08a85b6a60fb")
+		)
+		(pin "SN1"
+			(uuid "3b1275c6-e62f-45d4-9541-c16ebb5ad6f3")
+		)
+		(instances
+			(project "dsp"
+				(path "/830eff83-f012-43cb-96fd-a494f8ceadf0"
+					(reference "J8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_3_Open")
+		(at 346.71 205.74 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "679fb1d2-82fe-4238-bbfc-f4a38af2ccae")
+		(property "Reference" "JP15"
+			(at 342.392 204.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TIP"
+			(at 342.392 207.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 346.71 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 346.71 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 3-pole, open"
+			(at 346.71 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "7547147e-5c33-4505-a52f-36456281aef9")
+		)
+		(pin "2"
+			(uuid "467990da-7625-43c6-a8eb-12a7a73b2080")
+		)
+		(pin "1"
+			(uuid "62d1c59c-ad16-4421-bc3c-a11128940f8e")
+		)
+		(instances
+			(project "dsp"
+				(path "/830eff83-f012-43cb-96fd-a494f8ceadf0"
+					(reference "JP15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_3_Open")
+		(at 346.71 180.34 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "6846da6c-9df1-4ad1-9b2a-ab0fb2cb05ce")
+		(property "Reference" "JP13"
+			(at 342.392 179.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TIP"
+			(at 342.392 181.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 346.71 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 346.71 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 3-pole, open"
+			(at 346.71 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "ff1f74bc-0a5f-4e8f-8651-1cc6bda9813b")
+		)
+		(pin "2"
+			(uuid "19814edc-a289-4af0-834e-2cdb3c6ca89a")
+		)
+		(pin "1"
+			(uuid "412147bd-2829-42fa-bb09-6122b10c67f2")
+		)
+		(instances
+			(project "dsp"
+				(path "/830eff83-f012-43cb-96fd-a494f8ceadf0"
+					(reference "JP13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_3_Open")
+		(at 355.6 86.36 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "9c5b42b1-29c9-4fa2-9400-c29535775e3a")
+		(property "Reference" "JP6"
+			(at 351.028 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RING"
+			(at 351.028 87.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 355.6 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 355.6 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 3-pole, open"
+			(at 355.6 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "2f83644b-4cb8-4fcd-bb8c-89321b54cf7e")
+		)
+		(pin "2"
+			(uuid "33026b3e-8851-459d-b7ad-74e5a275c9cd")
+		)
+		(pin "1"
+			(uuid "0af895df-6867-4f45-a368-2025b8cc4521")
+		)
+		(instances
+			(project "dsp"
+				(path "/830eff83-f012-43cb-96fd-a494f8ceadf0"
+					(reference "JP6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_3_Open")
+		(at 355.6 213.36 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "a0b00578-6545-4b48-8932-a151821c5fd9")
+		(property "Reference" "JP16"
+			(at 351.028 212.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RING"
+			(at 351.028 214.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 355.6 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 355.6 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 3-pole, open"
+			(at 355.6 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "01f8e370-6cb0-4cd7-8781-c46fecca7f42")
+		)
+		(pin "2"
+			(uuid "18aa910b-10f6-4107-9391-1f1d5abd9d19")
+		)
+		(pin "1"
+			(uuid "6cccabc8-32bd-49fd-aad6-22855f86ac5c")
+		)
+		(instances
+			(project "dsp"
+				(path "/830eff83-f012-43cb-96fd-a494f8ceadf0"
+					(reference "JP16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_3_Open")
+		(at 355.6 35.56 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "a8235f6d-42fb-47ed-b72a-b74641be037c")
+		(property "Reference" "JP2"
+			(at 351.028 34.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RING"
+			(at 351.028 36.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 355.6 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 355.6 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 3-pole, open"
+			(at 355.6 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "e265ffcc-9860-4805-a3df-a8db9027f930")
+		)
+		(pin "2"
+			(uuid "99fde313-5c59-4dea-837b-2aa4604c7f81")
+		)
+		(pin "1"
+			(uuid "50ac62af-3e0b-4af7-94a7-5300225b23c1")
+		)
+		(instances
+			(project "dsp"
+				(path "/830eff83-f012-43cb-96fd-a494f8ceadf0"
+					(reference "JP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Audio:AudioJack3_Dual_Switch")
+		(at 373.38 58.42 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a8c92f6c-8e26-48fc-9d0b-53fc0a37503e")
+		(property "Reference" "J2"
+			(at 382.27 55.8799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Insert2"
+			(at 382.27 58.4199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 374.65 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 374.65 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio Jack, Dual, 3 Poles (Stereo / TRS), Switched Poles (Normalling)"
+			(at 373.38 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "T2"
+			(uuid "183f95e9-5b3a-4220-b08e-ae23868048a1")
+		)
+		(pin "S2"
+			(uuid "10eba5de-f3b0-4c6b-b17f-1f759ba99300")
+		)
+		(pin "R2"
+			(uuid "c3d275ce-75c9-45a4-82f6-4bf048893564")
+		)
+		(pin "T1"
+			(uuid "0d730ca4-35a3-44e9-957c-ba9ff35f0e77")
+		)
+		(pin "RN1"
+			(uuid "d1006795-2165-464b-af72-ce4decc1ab26")
+		)
+		(pin "TN2"
+			(uuid "4bf4f644-73dd-4f4c-9526-e291d165c1d3")
+		)
+		(pin "RN2"
+			(uuid "69bcbefb-f3f4-4a8e-91cd-be7b56060cb6")
+		)
+		(pin "TN1"
+			(uuid "dc8ce27a-0461-49d6-9c3a-4591ff893456")
+		)
+		(pin "S1"
+			(uuid "0fac3972-3416-4621-813c-168ab9318819")
+		)
+		(pin "R1"
+			(uuid "e3d4569c-0f76-4b28-84b4-f8ce508633cb")
+		)
+		(pin "SN2"
+			(uuid "8fc428fc-86db-4748-82bb-08a85b6a60fb")
+		)
+		(pin "SN1"
+			(uuid "97e976c6-184e-4073-85b7-569a95f4deb3")
+		)
+		(instances
+			(project "dsp"
+				(path "/830eff83-f012-43cb-96fd-a494f8ceadf0"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_3_Open")
+		(at 355.6 162.56 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "ab5fc845-1920-477b-8046-1e110b25b911")
+		(property "Reference" "JP12"
+			(at 351.028 161.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RING"
+			(at 351.028 163.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 355.6 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 355.6 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 3-pole, open"
+			(at 355.6 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "1be8f37f-c2c8-464d-84ef-f30c0ccfb3c3")
+		)
+		(pin "2"
+			(uuid "569494fc-b77f-4de4-a195-dc31a2115b68")
+		)
+		(pin "1"
+			(uuid "9955d34c-98f4-40ca-848e-6ceb494f3ac5")
+		)
+		(instances
+			(project "dsp"
+				(path "/830eff83-f012-43cb-96fd-a494f8ceadf0"
+					(reference "JP12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_3_Open")
+		(at 355.6 60.96 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "b11a52df-0acb-47a5-8480-035a66b3d49c")
+		(property "Reference" "JP4"
+			(at 351.028 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RING"
+			(at 351.028 62.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 355.6 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 355.6 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 3-pole, open"
+			(at 355.6 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "24ee986d-b68b-4655-9c18-86bae9f71a0f")
+		)
+		(pin "2"
+			(uuid "e6180474-787c-406f-9e5d-ca4a9c944e18")
+		)
+		(pin "1"
+			(uuid "5788b402-7005-4d28-a884-b433e78dfb7a")
+		)
+		(instances
+			(project "dsp"
+				(path "/830eff83-f012-43cb-96fd-a494f8ceadf0"
+					(reference "JP4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_3_Open")
+		(at 346.71 27.94 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "b6aeff5e-664c-4637-89cb-9c726296e84b")
+		(property "Reference" "JP1"
+			(at 342.392 26.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TIP"
+			(at 342.392 29.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 346.71 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 346.71 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 3-pole, open"
+			(at 346.71 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "9ce83047-d00d-4920-aabf-4f0025298059")
+		)
+		(pin "2"
+			(uuid "db0962a3-b2bb-4cba-8e5c-c4e31d33498a")
+		)
+		(pin "1"
+			(uuid "7f88a969-d4ab-4e3d-ae47-13a79a66ddf9")
+		)
+		(instances
+			(project ""
+				(path "/830eff83-f012-43cb-96fd-a494f8ceadf0"
+					(reference "JP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_3_Open")
+		(at 346.71 104.14 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "cb69ff9a-bce8-42a7-bf0a-aea725e18034")
+		(property "Reference" "JP7"
+			(at 342.392 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TIP"
+			(at 342.392 105.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 346.71 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 346.71 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 3-pole, open"
+			(at 346.71 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "e68d69f0-8626-47fc-9e21-196743ff07a1")
+		)
+		(pin "2"
+			(uuid "db7638c3-b152-4648-a7f9-c83513b3c695")
+		)
+		(pin "1"
+			(uuid "4c7e0e3d-c7f4-445e-8cff-e3948ceb624d")
+		)
+		(instances
+			(project "dsp"
+				(path "/830eff83-f012-43cb-96fd-a494f8ceadf0"
+					(reference "JP7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_3_Open")
+		(at 346.71 129.54 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "d2279d1d-24cf-48fb-b56c-73248ed3c4c3")
+		(property "Reference" "JP9"
+			(at 342.392 128.27 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TIP"
+			(at 342.392 130.81 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 346.71 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 346.71 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 3-pole, open"
+			(at 346.71 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "8de3d0eb-e893-455a-b2f3-d1b6725b2a07")
+		)
+		(pin "2"
+			(uuid "1e3206da-528f-4cee-8042-1e451f667d4b")
+		)
+		(pin "1"
+			(uuid "cc190619-af4f-4b2a-8d1f-f8b2d0678075")
+		)
+		(instances
+			(project "dsp"
+				(path "/830eff83-f012-43cb-96fd-a494f8ceadf0"
+					(reference "JP9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Audio:AudioJack3_Dual_Switch")
+		(at 373.38 160.02 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d942e46c-bf41-43c9-9dce-e8cc9768f0b0")
+		(property "Reference" "J6"
+			(at 382.27 157.4799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Insert6"
+			(at 382.27 160.0199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 374.65 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 374.65 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio Jack, Dual, 3 Poles (Stereo / TRS), Switched Poles (Normalling)"
+			(at 373.38 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "T2"
+			(uuid "183f95e9-5b3a-4220-b08e-ae23868048a1")
+		)
+		(pin "S2"
+			(uuid "10eba5de-f3b0-4c6b-b17f-1f759ba99300")
+		)
+		(pin "R2"
+			(uuid "c3d275ce-75c9-45a4-82f6-4bf048893564")
+		)
+		(pin "T1"
+			(uuid "216ed7ef-1757-4391-aa42-25f7c28a3394")
+		)
+		(pin "RN1"
+			(uuid "721ef9e3-48e6-45b2-8c30-032341835b26")
+		)
+		(pin "TN2"
+			(uuid "4bf4f644-73dd-4f4c-9526-e291d165c1d3")
+		)
+		(pin "RN2"
+			(uuid "69bcbefb-f3f4-4a8e-91cd-be7b56060cb6")
+		)
+		(pin "TN1"
+			(uuid "deaf3146-f533-4dea-a494-c762e731d28f")
+		)
+		(pin "S1"
+			(uuid "bd965992-0712-4a9f-ad74-383d72744ae5")
+		)
+		(pin "R1"
+			(uuid "53242ed5-5f8b-40b8-b985-d4fbe4b64d07")
+		)
+		(pin "SN2"
+			(uuid "8fc428fc-86db-4748-82bb-08a85b6a60fb")
+		)
+		(pin "SN1"
+			(uuid "c8caed07-f6f6-4df6-ac04-de4087e31770")
+		)
+		(instances
+			(project "dsp"
+				(path "/830eff83-f012-43cb-96fd-a494f8ceadf0"
+					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_3_Open")
+		(at 355.6 187.96 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "f12ca991-2343-431e-93cc-586190a2af64")
+		(property "Reference" "JP14"
+			(at 351.028 186.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RING"
+			(at 351.028 189.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 355.6 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 355.6 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 3-pole, open"
+			(at 355.6 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "9fd44b85-5b2f-4ace-a3d5-55cc9c42d7f7")
+		)
+		(pin "2"
+			(uuid "e3f432ae-3f28-46ac-8916-3c108fef8833")
+		)
+		(pin "1"
+			(uuid "7e741beb-b86b-405c-8f99-59bc164f1f70")
+		)
+		(instances
+			(project "dsp"
+				(path "/830eff83-f012-43cb-96fd-a494f8ceadf0"
+					(reference "JP14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
