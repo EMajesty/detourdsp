@@ -1,0 +1,50 @@
+# KiCad temporary and recovery files
+*.000
+*.bak
+*.bck
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*-bak
+*-bak*
+*~
+~*
+_autosave-*
+\#auto_saved_files\#
+\#auto_saved_files#
+*.tmp
+*-save.pro
+*-save.kicad_pcb
+fp-info-cache
+~*.lck
+
+# KiCad automatic backup archives
+*-backups/
+
+# KiCad 9+ local Git-based project history
+.history/
+
+# Per-user project state (window layout, open files, etc.)
+*.kicad_prl
+
+# Generated symbol/footprint caches
+*-cache*
+
+# Exported netlists
+*.net
+
+# Exported autorouter files
+*.dsn
+*.ses
+
+# Generated BOM exports
+*.xml
+*.csv
+
+# Keep KiCad project sources, libraries, and project configuration tracked:
+# *.kicad_pro, *.kicad_sch, *.kicad_pcb, *.kicad_sym, *.kicad_mod,
+# fp-lib-table, sym-lib-table, and custom design-rule files.
+#
+# Manufacturing outputs (Gerbers, drill, position, STEP, PDF, etc.) are not
+# ignored here because projects often deliberately version release artifacts.
+# Add a project-specific output directory (for example, /manufacturing/) if
+# those files are always generated locally.
